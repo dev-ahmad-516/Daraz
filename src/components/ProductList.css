@@ -1,0 +1,14 @@
+.products{
+  display: grid;
+  /* Key Change: Decreased min-width from 250px to 200px */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 2em;
+}
